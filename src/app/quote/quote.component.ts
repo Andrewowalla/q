@@ -14,7 +14,17 @@ export class QuoteComponent implements OnInit {
     new Quote('Everyday is a new day.','Carrie Underwood','Tobias',new Date('09,01,2022')),
     new Quote('It doe snot matter how slowly you go as long as you do not stop.', 'Confucious','Tobias', new Date('09-01-2021')),
     new Quote('Sometimes you will never know the VALUE of a moment, until it becomes a memory.','DR. SEUSS','Tobias', new Date('09-01-2021')),
-  ]
+  ];
+
+    deleteQuote(toDelete:boolean, index:number){
+      if (toDelete) {
+      this.quotes.splice(index, 1);
+    }
+  }
+
+    viewDetails(index:number){
+    this.quotes[index].showDetails =!this.quotes[index].showDetails;
+    }
   constructor() { }
 
   ngOnInit(): void {
