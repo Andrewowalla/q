@@ -1,0 +1,13 @@
+.quote{
+    padding: 10px;
+  }
+  
+  .card{
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.75;
+  }
+  
+  .container{
+    background-color: rgb(127, 255, 148);
+  }

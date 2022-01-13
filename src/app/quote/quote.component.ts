@@ -22,6 +22,11 @@ export class QuoteComponent implements OnInit {
     }
   }
 
+  createNewQuote(quote:any){
+    this.quotes.push(quote);
+
+  }
+
     viewDetails(index:number){
     this.quotes[index].showDetails =!this.quotes[index].showDetails;
     }
