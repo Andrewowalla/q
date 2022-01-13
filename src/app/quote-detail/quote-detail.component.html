@@ -1,1 +1,6 @@
-<p>quote-detail works!</p>
+<p id="Qa">{{quote.author}}</p>
+<button (click)='quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
+<br><br>
+<app-votes></app-votes>
+<p>created on {{quote.Created | date : "short"}} </p><br>
+<p>Days since creation: {{quote.Created | dateCount}}</p>
