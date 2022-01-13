@@ -1,1 +1,11 @@
-<p>votes works!</p>
+<div class="row">
+
+    <div id="upvote" class="col-md-6">
+      <button (click)="likeButtonClick()" class="btn btn-outline-success">{{numberOfLikes}} Like</button> 
+    </div>
+
+    <div id="downvote" class="col-md-6">
+      <button (click)="dislikeButtonClick()"  class="btn btn-outline-warning">{{numberOfDislikes}} Dislike</button>
+    </div>
+
+</div>
