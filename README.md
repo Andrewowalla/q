@@ -15,3 +15,10 @@ git clone https://github.com/Andrewowalla/q.git
 
 ## Contributors
  Andrew Tobias - andrewowalla@gmail.com
+## Link
+
+https://andrewowalla.github.io/q/
+
+## License
+
+MIT LICENSE
