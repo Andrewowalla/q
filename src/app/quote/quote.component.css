@@ -7,11 +7,16 @@
   height: 100vh;
   background-position: bottom;
 }
+#ow {
+  background-image: url(https://cdn.shopify.com/s/files/1/0070/7032/files/Nelsson_Mandela.png?format=jpg&quality=90&v=1600448850);
+  background-size: cover;
+  height: 100vh;
+  background-position: bottom;
+}
   
   .card{
     padding: 10px;
     margin: 10px;
-    opacity: 0.75;
   }
   
   .container{
