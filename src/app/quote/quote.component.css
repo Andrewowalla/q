@@ -1,6 +1,12 @@
 .quote{
     padding: 10px;
   }
+#g {
+  background-image: url(https://media.istockphoto.com/photos/speech-bubble-on-blue-background-picture-id1009861190?b=1&k=20&m=1009861190&s=170667a&w=0&h=-gATf7bn0aGMv0Bfu7kh2oCOYV7YJBt0xJV72xLwwBw=);
+  background-size: cover;
+  height: 100vh;
+  background-position: bottom;
+}
   
   .card{
     padding: 10px;
